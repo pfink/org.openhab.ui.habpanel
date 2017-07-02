@@ -17,9 +17,15 @@
 
   <packaging>eclipse-plugin</packaging>
 
-    <properties>
-        <ohc.version>${project.version}</ohc.version>
-    </properties>
+  <properties>
+      <ohc.version>${project.version}</ohc.version>
+  </properties>
+
+  <scm>
+      <connection>scm:git:${scm.gitBaseUrl}/org.openhab.ui.habpanel.git</connection>
+      <developerConnection>scm:git:${scm.gitBaseUrl}/org.openhab.ui.habpanel.git</developerConnection>
+      <url>https://github.com/openhab/org.openhab.ui.habpanel</url>
+  </scm>
 
 	<dependencies>
 		<dependency>
